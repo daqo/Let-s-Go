@@ -1,5 +1,5 @@
 #Let's Go!
-> A geographical transient social network.
+> A geographical transient social network powered by Objective-C and Ruby on Rails.
 
 This project was done as a final course project for **iOS Development Course** during summer 2014.
 
@@ -21,12 +21,18 @@ This project was done as a final course project for **iOS Development Course** d
   * The users can see other people's statuses in their local vicinity which have been posted in the last 20 minutes
   * Presently the radius is 5 miles
 
+# Frontend
+  * It's written in Objective-C and is optimized for all iphones including iPhone 6
+  * The code is located in iOSApp-Let'sGo Folder
+
 # Backend
   * The backend server is written with Ruby on Rails
   * It doesn't use normal RoR, just Rails::API
     * Using it, we limit our Rails app to include only things necessary for API-driven apps
   * It's hosted on Heroku
     * ``http://lets-go.herokuapp.com``
+  * The code is located in 'Rails backend' folder
+
 ## Public APIs
   * Registration
     * ``POST http://lets-go.herokuapp.com/users``
