@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+
+gem 'rails', '4.0.0'
+gem 'rails-api'
+gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'active_model_serializers'
+
+gem 'pg'
+gem 'sqlite3'
+
+
+group :development, :test do
+  gem "debugger"
+  gem 'rspec-rails', '~> 3.0.0'
+  gem "mocha"
+  gem "timecop"
+end

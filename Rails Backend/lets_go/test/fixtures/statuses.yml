@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# one:
+#   user_id: 
+#   lat: MyString
+#   long: MyString
+#   body: MyString
+#   duration: 1
+#   image_url: MyString
+
+# two:
+#   user_id: 
+#   lat: MyString
+#   long: MyString
+#   body: MyString
+#   duration: 1
+#   image_url: MyString
